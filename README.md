@@ -8,8 +8,7 @@ del conjunt de dades *Music Info*.
 
 ## Contingut
 - Codi R (RStudio): exploració i neteja
-- Storytelling final creat amb Flourish
-- Enllaç a visualitzacions interactives creades amb Flourish
+- Enllaç a visualització interactiva creada amb Flourish
 
 ## Accés al storytelling
 Flourish:
