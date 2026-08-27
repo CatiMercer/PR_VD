@@ -92,9 +92,6 @@ El resultat permet explorar visualment l'evolució dels gèneres, la popularitat
 - `rstudio/high_popularity_by_genre.csv` i `high_popularity_by_genre2.csv` — dades derivades per analitzar la popularitat per gènere.
 - `.gitignore` — exclou del repositori el dataset d'historial d'escoltes pel seu volum.
 
-## Accés al storytelling
-Flourish:
-https://public.flourish.studio/story/3529425/
 
 ---
 
