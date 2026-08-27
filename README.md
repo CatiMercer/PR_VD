@@ -82,16 +82,33 @@ El resultat permet explorar visualment l'evolució dels gèneres, la popularitat
 
 ## 📁 Estructura del repositori
 
-- `rstudio/music_analysis.Rmd` — codi de preparació, neteja, transformació i anàlisi de les dades.
-- `rstudio/Music_Info.csv` — metadades i característiques musicals.
-- `rstudio/data_clean.csv` — conjunt de dades resultant del procés de preparació.
-- `rstudio/music_scatter.csv` — dades preparades per a visualitzacions de relacions entre variables.
-- `rstudio/music_year.csv` — dades preparades per a l'anàlisi temporal.
-- `rstudio/music_race.csv` — dades derivades per a la visualització de l'evolució musical.
-- `rstudio/top10_tracks_radar.csv` — dades de les cançons seleccionades per a la comparació de característiques.
-- `rstudio/high_popularity_by_genre.csv` i `high_popularity_by_genre2.csv` — dades derivades per analitzar la popularitat per gènere.
-- `.gitignore` — exclou del repositori el dataset d'historial d'escoltes pel seu volum.
+- `analysis/music_analysis.Rmd` — codi de preparació, neteja, transformació i anàlisi de les dades.
+- `data/Music_Info.csv` — metadades i característiques musicals del dataset original.
+- `data/data_clean.csv` — conjunt de dades resultant del procés de preparació.
+- `outputs/music_scatter.csv` — dades preparades per a visualitzacions de relacions entre variables.
+- `outputs/music_year.csv` — dades preparades per a l'anàlisi temporal.
+- `outputs/music_race.csv` — dades preparades per visualitzar l'evolució musical.
+- `outputs/top10_tracks_radar.csv` — dades preparades per comparar les característiques de les cançons seleccionades.
+- `outputs/high_popularity_by_genre.csv` — dades derivades per analitzar les cançons d'alta popularitat segons el gènere.
+- `outputs/high_popularity_by_genre2.csv` — dades derivades per comparar la proporció de cançons d'alta popularitat entre gèneres.
+- `.gitignore` — exclou `User_Listening_History.csv` del repositori a causa del seu volum.
 
+
+music-data-visualization/
+├── analysis/
+│   └── music_analysis.Rmd
+├── data/
+│   ├── Music_Info.csv
+│   └── data_clean.csv
+├── outputs/
+│   ├── music_scatter.csv
+│   ├── music_year.csv
+│   ├── music_race.csv
+│   ├── top10_tracks_radar.csv
+│   ├── high_popularity_by_genre.csv
+│   └── high_popularity_by_genre2.csv
+├── .gitignore
+└── README.md
 
 ---
 
