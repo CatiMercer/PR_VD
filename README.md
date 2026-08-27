@@ -94,22 +94,6 @@ El resultat permet explorar visualment l'evolució dels gèneres, la popularitat
 - `.gitignore` — exclou `User_Listening_History.csv` del repositori a causa del seu volum.
 
 
-music-data-visualization/
-├── analysis/
-│   └── music_analysis.Rmd
-├── data/
-│   ├── Music_Info.csv
-│   └── data_clean.csv
-├── outputs/
-│   ├── music_scatter.csv
-│   ├── music_year.csv
-│   ├── music_race.csv
-│   ├── top10_tracks_radar.csv
-│   ├── high_popularity_by_genre.csv
-│   └── high_popularity_by_genre2.csv
-├── .gitignore
-└── README.md
-
 ---
 
 📌 Projecte desenvolupat com a part del **Màster Universitari en Ciència de Dades de la Universitat Oberta de Catalunya (UOC)**.
