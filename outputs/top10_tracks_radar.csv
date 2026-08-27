@@ -1,0 +1,11 @@
+name,artist,energy,danceability,valence,acousticness,instrumentalness,genre_grouped,spotify_preview_url,track_label
+Revelry,Kings of Leon,0.748,0.437,0.383,0.196,3.28e-4,Rock,https://p.scdn.co/mp3-preview/1c2604b381e6106ca4a180900a98fb5fce20006c?cid=774b29d4f13844c495f206cafdad9c86,Revelry - Kings of Leon
+Alejandro,Lady Gaga,0.8,0.626,0.353,5.82e-4,0.00114,Pop,https://p.scdn.co/mp3-preview/fc79c08bc9f46cca000a6c75ffe943f6399a7850?cid=774b29d4f13844c495f206cafdad9c86,Alejandro - Lady Gaga
+Gears,Miss May I,0.975,0.47,0.0796,2.71e-5,1.87e-4,Metal,https://p.scdn.co/mp3-preview/6a9701b4828b982d35229d61403ad92c0c50d425?cid=774b29d4f13844c495f206cafdad9c86,Gears - Miss May I
+Halo,Depeche Mode,0.508,0.672,0.741,0.0528,0.0671,Pop,https://p.scdn.co/mp3-preview/78eac59c0b2a706780e0a7cd70250218d930e18a?cid=774b29d4f13844c495f206cafdad9c86,Halo - Depeche Mode
+Bring Me To Life,Katherine Jenkins,0.563,0.429,0.298,0.881,9.68e-5,Rock,https://p.scdn.co/mp3-preview/8f57eebe270df7125d5d48fd897eadaab1f879a5?cid=774b29d4f13844c495f206cafdad9c86,Bring Me To Life - Katherine Jenkins
+Heartbreak Warfare,John Mayer,0.572,0.626,0.297,0.197,4.97e-4,Rock,https://p.scdn.co/mp3-preview/fec54783c7f773f24a8df555949f6a1f5b5637ae?cid=774b29d4f13844c495f206cafdad9c86,Heartbreak Warfare - John Mayer
+Uprising,Sabaton,0.866,0.527,0.428,0.00991,5.19e-5,Metal,https://p.scdn.co/mp3-preview/747932059a000a214d01808f84cc05b6ebd442ce?cid=774b29d4f13844c495f206cafdad9c86,Uprising - Sabaton
+Float On,Modest Mouse,0.893,0.646,0.559,0.0151,3.59e-6,Rock,https://p.scdn.co/mp3-preview/0d741d740ea0e449057d326439a47e974447e86d?cid=774b29d4f13844c495f206cafdad9c86,Float On - Modest Mouse
+Party In The U.S.A.,The Barden Bellas,0.36,0.531,0.701,0.822,0,Pop,https://p.scdn.co/mp3-preview/f8c5ff9e6aebca46dad9fdebe5a2f363a40cb326?cid=774b29d4f13844c495f206cafdad9c86,Party In The U.S.A. - The Barden Bellas
+Bitter Sweet Symphony,The Verve,0.907,0.383,0.514,0.0313,0,Rock,https://p.scdn.co/mp3-preview/3debe861147de110f5e72e6badd5aaa63247f2d4?cid=774b29d4f13844c495f206cafdad9c86,Bitter Sweet Symphony - The Verve
