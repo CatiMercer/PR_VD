@@ -26,8 +26,8 @@ library(writexl)
 
 ```{r}
 # Carregam les dades
-music = read.csv("Music_Info.csv", check.names = FALSE)
-count = read.csv("User_Listening_History.csv", check.names = FALSE)
+music = read.csv("../data/Music_Info.csv", check.names = FALSE)
+count = read.csv("../data/User_Listening_History.csv", check.names = FALSE)
 ```
 
 
@@ -223,7 +223,7 @@ music_clean =
 
 ```{r}
 # En CSV
-write_csv(music_clean, "data_clean.csv")
+write_csv(music_clean, "../data/data_clean.csv")
 ```
 
 ```{r}
@@ -253,7 +253,7 @@ music_scatter = select(music_clean, track_id, name, artist, year, genre_grouped,
                       valence, mood, total_plays, popularity_norm, tempo_class) 
 music_scatter = filter(music_scatter, !is.na(energy), !is.na(valence))
 
-write_csv(music_scatter, "music_scatter.csv")
+write_csv(music_scatter, "../outputs/music_scatter.csv")
 ```
 
 
@@ -279,7 +279,7 @@ music_year_wide = pivot_wider(music_year_wide, names_from = genre_grouped,
                               values_from = n_tracks, values_fill = 0)
 
 
-write_csv(music_year_wide, "music_year.csv")
+write_csv(music_year_wide, "../outputs/music_year.csv")
 
 ```
 
@@ -293,7 +293,7 @@ music_race = summarise(music_race, total_plays = sum(total_plays, na.rm = TRUE),
 music_race_wide = pivot_wider(music_race, names_from = year, values_from = total_plays,
                               values_fill = 0 )
 
-write_csv(music_race_wide, "music_race.csv")
+write_csv(music_race_wide, "../outputs/music_race.csv")
 
 ```
 
@@ -314,7 +314,7 @@ top10 = select(top10, name, artist, energy, danceability, valence,
                acousticness, instrumentalness, genre_grouped, spotify_preview_url)
 top10 = mutate(top10, track_label = paste(name, "-", artist))
 
-write_csv(top10, "top10_tracks_radar.csv")
+write_csv(top10, "../outputs/top10_tracks_radar.csv")
 
 ```
 
@@ -332,7 +332,7 @@ high_pop_by_genre = group_by(high_pop, genre_grouped)
 high_pop_by_genre = summarise(high_pop_by_genre, n_high_pop_tracks = n(),
                             .groups = "drop")
 
-write_csv(high_pop_by_genre, "high_popularity_by_genre.csv")
+write_csv(high_pop_by_genre, "../outputs/high_popularity_by_genre.csv")
 
 ```
 
@@ -348,5 +348,5 @@ percent = summarise(percent,
                               total_songs = n(), top_songs = sum(is_top, na.rm = TRUE),
                               perc_top = top_songs / total_songs * 100) 
 percent = arrange(percent, desc(perc_top))
-write_csv(percent, "high_popularity_by_genre2.csv")
+write_csv(percent, "../outputs/high_popularity_by_genre2.csv")
 ```
